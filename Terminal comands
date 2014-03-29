@@ -1,13 +1,14 @@
-1.Sublime Text-2
-	1.open terminal
+Dikkat! 
+(Yeni kurulan Linux dağılımlarına uygulamadan önce dağılım güncelleştirmelerinizi yapmanız gerekiyor..)
+1.Sublime Text
+	1.For Sublime-Text-2:
 		sudo add-apt-repository ppa:webupd8team/sublime-text-2
 		sudo apt-get update
-	
-	2.Optional: remove any installed Sublime Text packages:
-		sudo apt-get --purge remove sublime-text*
-	3.Now to install Sublime Text, type the following:
 		sudo apt-get install sublime-text
-
+	2.For Sublime-Text-3:
+		sudo add-apt-repository ppa:webupd8team/sublime-text-3
+		sudo apt-get update
+		sudo apt-get install sublime-text-installer
 2.Youtube download video
 	1.sudo apt-get install miro
 	2.sudo apt-get install youtube-dl
@@ -61,8 +62,3 @@
 	sudo apt-get update
 	sudo apt-get install bumblebee bumblebee-nvidia
 	sudo usermod -a -G bumblebee $USER
-19.Sublime Text 3
-	sudo add-apt-repository ppa:webupd8team/sublime-text-3
-	sudo apt-get update
-	sudo apt-get install sublime-text-installer
-
