@@ -30,7 +30,7 @@ Bazı programların kurulumu
 2.Youtube download video
 	1.sudo apt-get install miro
 	2.sudo apt-get install youtube-dl
-	3.youtube-dl "video url"
+	3.youtube-dl "video url" (yazarak videonuzu indire bilirsiniz)
 	4.sudo youtube-dl -U (update)
 3.Git
 	sudo apt-get install git
