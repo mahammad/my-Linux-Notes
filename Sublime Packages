@@ -1,0 +1,11 @@
+Sublime Packages
+(öncelike "cd ~/.config/sublime-text-2(3)/Packages dizinine gidelim ve paket kodunu yazalım")
+	1.Git:
+		git clone git://github.com/jisaacks/GitGutter.git
+	2.CTag:
+		git clone https://github.com/SublimeText/CTags 
+	3.Gist
+		git clone git://github.com/condemil/Gist
+	4.RubyTest
+		git clone https://github.com/maltize/sublime-text-2-ruby-tests.git RubyTest
+	5.
