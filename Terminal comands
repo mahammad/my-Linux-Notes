@@ -1,6 +1,6 @@
 Dikkat! 
 (Yeni kurulan Linux dağılımlarına uygulamadan önce dağılım güncelleştirmelerinizi yapmanız gerekiyor..)
-Genel kullanılan komutlar.
+Genel kullanılan komutlar.Star yapmayı unutmayın (:) )
 
 	Güncelleştirme
 		sudo apt-get update
@@ -10,12 +10,12 @@ Genel kullanılan komutlar.
 		sudo apt-get autoremove
 		sudo apt-get autoclean
 	ls 		- dizini listeler
-	cd (dizin) 	 -bir dizine gider
+	cd (dizin)  -bir dizine gider
 	cd .. 		- bir dizin geri gider
 	cd ~  		- başlanğıc dizinine gider
 	clear 		- terminal alanını temizler
-	sudo init 0 - bilgisayarı kapatır 
-	sudo init 6 - bilgisayarı yeniden başlatır 
+	sudo init 0 	- bilgisayarı kapatır 
+	sudo init 6 	- bilgisayarı yeniden başlatır 
 
 Bazı programların kurulumu
 1.Sublime Text
