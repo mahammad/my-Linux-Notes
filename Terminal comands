@@ -9,8 +9,8 @@ Genel kullanılan komutlar.
 	Gereksiz dosyaların silinmesi
 		sudo apt-get autoremove
 		sudo apt-get autoclean
-	ls 			- dizini listeler
-	cd (dizin)  -bir dizine gider
+	ls 		- dizini listeler
+	cd (dizin) 	 -bir dizine gider
 	cd .. 		- bir dizin geri gider
 	cd ~  		- başlanğıc dizinine gider
 	clear 		- terminal alanını temizler
@@ -93,8 +93,6 @@ Bazı programların kurulumu
 22."update" eror ppa:
 	sudo sh -c "echo 'Dir::Ignore-Files-Silently:: \"(.save|.distupgrade)$\";' > /etc/apt/apt.conf.d/99ignoresave"
 	sudo apt-get update
-22.Gereksiz dosyaların silinmesi
-	sudo apt-get autoremove
 23.Boot(Grup)
 	sudo add-apt-repository ppa:yannubuntu/boot-repair && sudo apt-get update
 	sudo apt-get install -y boot-repair && (boot-repair &)
