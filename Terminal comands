@@ -96,3 +96,5 @@ Bazı programların kurulumu
 23.Boot(Grup)
 	sudo add-apt-repository ppa:yannubuntu/boot-repair && sudo apt-get update
 	sudo apt-get install -y boot-repair && (boot-repair &)
+24.JDK
+	sudo apt-get install openjdk-7-jdk
