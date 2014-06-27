@@ -1,9 +1,5 @@
-<html>
-<head>
-	<title><h4>Terminal Notes</h4></title>
-</head>
-<body>
-This repository contains same Linux command line & how to install same programe from the terminal
+#### Terminal Notes
+This repository contains same Linux command line and my notes that I used during education.
 
-</body>
-</html>
+*Emphasis* git function
+That text contains, how to you use git functions
