@@ -1,100 +1,45 @@
-Dikkat! 
-(Yeni kurulan Linux dağılımlarına uygulamadan önce dağılım güncelleştirmelerinizi yapmanız gerekiyor..)
 Genel kullanılan komutlar.Star yapmayı unutmayın (:) )
 
-	Güncelleştirme
-		sudo apt-get update
+Güncelleştirme
+		--sudo apt-get update
 	Versiyon güncelleştirmesi
-		sudo apt-get upgrade
+		--sudo apt-get upgrade
 	Gereksiz dosyaların silinmesi
-		sudo apt-get autoremove
-		sudo apt-get autoclean
-	ls 		- dizini listeler
-	cd (dizin)  -bir dizine gider
-	cd .. 		- bir dizin geri gider
-	cd ~  		- başlanğıc dizinine gider
-	clear 		- terminal alanını temizler
-	sudo init 0 	- bilgisayarı kapatır 
-	sudo init 6 	- bilgisayarı yeniden başlatır 
+		--sudo apt-get autoremove
+		--sudo apt-get autoclean
+ls 		--- dizini listeler
+cd (dizin)  -bir dizine gider
+cd .. 		--- bir dizin geri gider
+cd ~  		--- başlanğıc dizinine gider
+clear 		--- terminal alanını temizler
+sudo init 0 	--- bilgisayarı kapatır 
+sudo init 6 	--- bilgisayarı yeniden başlatır 
 
 Bazı programların kurulumu
-1.Sublime Text
-	1.For Sublime-Text-2:
-		sudo add-apt-repository ppa:webupd8team/sublime-text-2
-		sudo apt-get update
-		sudo apt-get install sublime-text
-	2.For Sublime-Text-3:
-		sudo add-apt-repository ppa:webupd8team/sublime-text-3
-		sudo apt-get update
-		sudo apt-get install sublime-text-installer
-2.Youtube download video
-	1.sudo apt-get install miro
-	2.sudo apt-get install youtube-dl
-	3.youtube-dl "video url" (yazarak videonuzu indire bilirsiniz)
-	4.sudo youtube-dl -U (update)
-3.Git
-	sudo apt-get install git
-4.gcc
-	sudo apt-get install gcc 
-5.MySQL
-	sudo apt-get install mysql-server
-	sudo apt-get install mysql-client
-6.SSH
-	sudo apt-get install openssh-server
-7.VirtualBox
-	sudo apt-get install virtualbox
-8.'wine' .exe programları çalıştırmak için
-	sudo apt-get install wine
-9.Yüklü programların listesi
-	dpkg --get-selections
-10.Google chrome eror
-	sudo awk '!a[$0]++' /etc/apt/sources.list
-11.Performans
-	sudo apt-get install htop
-12.Libre Office update
-	sudo add-apt-repository ppa:libreoffice/libreoffice-4-1 sudo apt-get update && sudo apt-get -y dist-upgrade
-    sudo add-apt-repository ppa:libreoffice/ppa
-13.Gereksiz dosyaları kaldır
-	sudo apt-get autoremove 
-14.Ubuntu-Tweak
-	sudo add-apt-repository ppa:tualatrix/ppa
-    sudo apt-get update
-    sudo apt-get install ubuntu-tweak
-15."update" eror
-	sudo cp /etc/apt/sources.list ~/ 
-	sudo wget "http://pastebin.com/raw.php?i=uzhrtg5M" -O /etc/apt/sources.list 
-	sudo apt-get update
-	sudo rm /etc/apt/sources.list.d/ubuntu-extras.list
-	sudo apt-get update
-16.PHP
+
+1.Git 					--sudo apt-get install git
+2.gcc 					--sudo apt-get install gcc 
+3.JDK 					--sudo apt-get install openjdk-7-jdk
+4.SSH 					--sudo apt-get install openssh-server
+5.VirtualBox 			--sudo apt-get install virtualbox
+6.Wine     		 	    --sudo apt-get install wine
+7.Yüklü programların 	--dpkg --get-selections
+8.Google chrome eror 	--sudo awk '!a[$0]++' /etc/apt/sources.list
+9.Performans			--sudo apt-get install htop
+10.Netbeans 			--sudo apt-get install netbeans
+11.PHP
 	1.mySQL:sudo apt-get install mysql-client-5.5
-  			sudo apt-get install mysql-server-5.5
+  			--sudo apt-get install mysql-server-5.5
   	2.XAMPP:sudo add-apt-repository ppa:upubuntu-com/web
-  			sudo apt-get update
- 			sudo apt-get install xampp
-  			sudo /opt/lampp/lampp start
-17.Bilgisayarın ısılarını terminelden gösteren komut
-	sudo apt-get install lm-sensors
-18.Ekran kartı komutları
-	sudo add-apt-repository ppa:bumblebee/stable
-	sudo apt-get update
-	sudo apt-get install bumblebee bumblebee-nvidia
-	sudo usermod -a -G bumblebee $USER
-19.iPhone bağlanma hatası(Re: DBus error org.freedesktop.DBus.Error.NoReply: Message did not receive a reply)
-	sudo add-apt-repository ppa:pmcenery/ppa
-	sudo apt-get update
-	sudo apt-get dist-upgrade
-20.Eclipse
-	sudo apt-get install eclipse-platform
-	sudo apt-get install eclipse-jdt
-	sudo apt-get install eclipse-cdt
-21.Netbeans
-	sudo apt-get install netbeans
-22."update" eror ppa:
-	sudo sh -c "echo 'Dir::Ignore-Files-Silently:: \"(.save|.distupgrade)$\";' > /etc/apt/apt.conf.d/99ignoresave"
-	sudo apt-get update
-23.Boot(Grup)
-	sudo add-apt-repository ppa:yannubuntu/boot-repair && sudo apt-get update
-	sudo apt-get install -y boot-repair && (boot-repair &)
-24.JDK
-	sudo apt-get install openjdk-7-jdk
+  			--sudo apt-get update
+ 			--sudo apt-get install xampp
+  			--sudo /opt/lampp/lampp start
+12.MySQL
+	--sudo apt-get install mysql-server
+	--sudo apt-get install mysql-client
+13.Eclipse
+	--sudo apt-get install eclipse-platform
+	--sudo apt-get install eclipse-jdt
+	--sudo apt-get install eclipse-cdt
+
+14.Bilgisayarın ısılarını terminelden gösteren komut 	--sudo apt-get install lm-sensors
