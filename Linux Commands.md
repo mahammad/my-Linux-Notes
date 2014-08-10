@@ -9,14 +9,29 @@
  - `sudo apt-get autoclean`
  
 | Terminal komutu                         | görevi                   |
-| --------------------------|------------------------------------------|
-|`ls` 		    |  dizini listeler|
+| --------------------------|----------------------------------------|
+|`man <komut>`| komut hakkinda bilgilendirme|
+|`<komut> --help`| komut hakkinda bilgilendirme|
+|`sudo su`, `sudo -i`|root olmanızı sağlar|
+|`pwd`| bulunduğunuz dizini gösterir|
+|`ls` 		    |  dizinin dosyalarını listeler|
+|`ll` 		    |  dizinin dosyalarını ayrıntıları ile listeler|
 |`cd`           | bir dizine gider|
 |`cd .. `		| bir dizin geri gider|
 |`cd ~ ` 		| başlanğıc dizinine gider|
 |`clear` 		| terminal alanını temizler|
 |`sudo init 0 `	| bilgisayarı kapatır |
 |`sudo init 6 `	| bilgisayarı yeniden başlatır |
+|`bc`           | basit matematiksel hesaplamalar|
+|`cp -rp <dosya> /dizin/`| dosya kopyalama|
+|`mv  <dosya> /dizin/`| dosya taşıma|
+|`rm -r(f)  <dosya>`| dosya silme|
+|`top`,`htop`| çalışan uygulamalar, sistem bilgisi|
+|`reset`| terminalınızı resetlemenizi sağlar|
+| `chmod +x <dosya>`| dosyalara çalışabilirlik izni verilmesi|
+|`nano`, `vi`| terminal text editörleri|
+|`df`| bilgisayar disk bölümleri hakkında bilgilendirme|
+|`free -m` | ram'in `mb` olarak kullanımı hakkında bilgilendirme|
 
 ####Bazı programların kurulumu
 |Program    |Terminal komutu|
@@ -31,19 +46,5 @@
 |8.Google chrome eror  | `sudo awk '!a[$0]++' /etc/apt/sources.list`|
 |9.Performans			 |`sudo apt-get install htop`|
 |10.Netbeans 		 | `sudo apt-get install netbeans`|
-|11.PHP
-| * mySQL:|`sudo apt-get install mysql-client-5.5`|
-||`sudo apt-get install mysql-server-5.5`|
-|* XAMPP:|`sudo add-apt-repository ppa:upubuntu-com/web`|
-||`sudo apt-get update`|
-||`sudo apt-get install xampp`|
-||`sudo /opt/lampp/lampp start`|
-|12.MySQL
-	|| `sudo apt-get install mysql-server`|
-	|| `sudo apt-get install mysql-client`|
-|13.Eclipse|
-|| `sudo apt-get install eclipse-platform`|
-|| `sudo apt-get install eclipse-jdt`|
-|| `sudo apt-get install eclipse-cdt`|
-|14.Sensors | `sudo apt-get install lm-sensors`|
-|||
+|11.Sensors | `sudo apt-get install lm-sensors`|
+|12.htop| `sudo apt-get install htop`|
