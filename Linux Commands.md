@@ -48,3 +48,4 @@
 |10.Netbeans 		 | `sudo apt-get install netbeans`|
 |11.Sensors | `sudo apt-get install lm-sensors`|
 |12.htop| `sudo apt-get install htop`|
+|13.Geany| ` apt-get install geany `|
