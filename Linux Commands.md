@@ -8,7 +8,7 @@
  - `sudo apt-get autoremove`
  - `sudo apt-get autoclean`
  
-| Terminal komutu                         | görevi                   |
+| Terminal komutu           | görevi                                 |
 | --------------------------|----------------------------------------|
 |`man <komut>`| komut hakkinda bilgilendirme|
 |`<komut> --help`| komut hakkinda bilgilendirme|
@@ -32,6 +32,7 @@
 |`nano`, `vi`| terminal text editörleri|
 |`df`| bilgisayar disk bölümleri hakkında bilgilendirme|
 |`free -m` | ram'in `mb` olarak kullanımı hakkında bilgilendirme|
+|`sudo mountall -v`| yönetici olarak tüm diskleri birleştirir|
 
 ####Bazı programların kurulumu
 |Program    |Terminal komutu|
@@ -47,5 +48,5 @@
 |9.Performans			 |`sudo apt-get install htop`|
 |10.Netbeans 		 | `sudo apt-get install netbeans`|
 |11.Sensors | `sudo apt-get install lm-sensors`|
-|12.htop| `sudo apt-get install htop`|
-|13.Geany| ` apt-get install geany `|
+|12.htop | `sudo apt-get install htop`|
+|13.Geany| `sudo apt-get install geany `|
