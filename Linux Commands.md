@@ -32,13 +32,10 @@
 | `chmod +x dosya`| dosyalara çalışabilirlik izni verilmesi|
 |`nano`, `vi`| terminal text editörleri|
 |`df -m`| bilgisayar disk bölümleri hakkında bilgilendirme|
-|`free -m` | ram'in `mb` olarak kullanımı hakkında bilgilendirme|
-|`sudo mountall -v`| yönetici olarak tüm diskleri birleştirir|
-|`cat dosya´| dosya içeriğini ekrana yazıyor|
-|`mkdir Klasörisim´| klasör oluşturmak için|
-|``||
-|``||
-|``||
+|`free -m`  | ram'in `mb` olarak kullanımı hakkında bilgilendirme|
+|`sudo mountall -v` | yönetici olarak tüm diskleri birleştirir|
+|`cat dosya´ | dosya içeriğini ekrana yazıyor|
+|`mkdir Klasörisim´ | klasör oluşturmak için|
 
 ####Bazı programların kurulumu
 |Program    |Terminal komutu|
