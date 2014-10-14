@@ -17,7 +17,7 @@
 |`ls` 		    |  dizinin dosyalarını listeler|
 |`ll` 		    |  dizinin dosyalarını ayrıntıları ile listeler|
 |`cd ~/Dizinismi/`| istenen dizine kısa yoldan gider|
-|`cd ~/Dizinismi/`| ´~´ işareti aslına ´/home/kullanic/´ dizinine eşit görevdedir.|
+|`cd ~/Dizinismi/`| `~` işareti aslına `/home/kullanic/` dizinine eşit görevdedir.|
 |`cd .. `		| bir dizin geri gider|
 |`cd ~ ` 		| başlanğıc dizinine gider|
 |`clear` 		| terminal alanını temizler|
@@ -34,8 +34,8 @@
 |`df -m`| bilgisayar disk bölümleri hakkında bilgilendirme|
 |`free -m`  | ram'in `mb` olarak kullanımı hakkında bilgilendirme|
 |`sudo mountall -v` | yönetici olarak tüm diskleri birleştirir|
-|`cat dosya´ | dosya içeriğini ekrana yazıyor|
-|`mkdir Klasörisim´ | klasör oluşturmak için|
+|`cat dosya` | dosya içeriğini ekrana yazıyor|
+|`mkdir Klasörisim` | klasör oluşturmak için|
 
 ####Bazı programların kurulumu
 |Program    |Terminal komutu|
